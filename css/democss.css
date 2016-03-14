@@ -1,0 +1,273 @@
+.demo-test-div{
+    width: 790px;
+    margin:0 auto;
+}
+.step-ul{
+    width:790px !important;
+}
+.step-ul-li{
+    width:136px !important;
+}
+section{;
+    width:790px;
+    height:auto;
+    margin:0 auto;
+    border:1px solid #ddd;
+}
+#files{
+    width:750px;
+    height:auto;
+    margin-left:20px;
+    /*border:2px solid #ddd;*/
+}
+.files-text{
+    font-size: 18px;
+    font-weight:bold;
+    margin-left:20px;
+}
+.files-body{
+    width:750px;
+    height:auto;
+    /*margin-left: 20px;*/
+}
+
+.files-header{
+   width:750px;
+    height:30px;
+    line-height:30px;
+    background:#E8E8E8;
+}
+.files-header2{
+    width:750px;
+    height:30px;
+    line-height:30px;
+}
+li.lt{
+    width:460px;
+    margin-left:20px;
+    font-weight:bold;
+}
+li.rt{
+    width:270px;
+   text-align:center;
+    font-weight:bold;
+}
+#radio-nomarl2{
+    display:inline-block;
+    height: 30px;
+    line-height:30px;
+    margin-left:20px;
+}
+.files-name{
+    float:left;
+    height:30px;
+    line-height:30px;
+}
+.files-header1{
+    width:750px;
+    height:30px;
+    line-height:30px;
+    /*border-bottom:1px solid #ddd;*/
+}
+
+.date{
+    display:inline-block;
+    width:260px;
+    height:30px;
+    linght:30px;
+    text-align:center;
+    /*border:1px solid #ddd;*/
+}
+.box{
+    width:750px;
+    height: 140px;
+    background:#f4f6f7;
+    margin:20px 0;
+}
+.box li{
+    margin-top:10px;
+}
+.box li.lt{
+    text-align:right;
+}
+li.box-text,span.box-text{
+    font-family: "Microsoft YaHei";
+    font-size:12px;
+    color: #787878;
+}
+.box input{
+    width:80px;
+    height:28px;
+    margin-left:10px!important;
+}
+.btn {
+margin-left:10px;
+}
+.box-number{
+    margin-left:4px;
+}
+.box-company,.end-code{
+    margin-right:165px;
+}
+span.box-text{
+   padding-right:5px;
+}
+.telnumber{
+    width:750px;
+    height:80px;
+    background: #f4f6f7;
+    margin-top:10px;
+}
+.telnumber li.lt{
+    margin-left:150px;
+    margin-top:20px;
+}
+#start,#end{
+    width:120px;
+    margin-right:40px;
+}
+.kuandai-info{
+    width: 750px;
+    height:auto;
+    margin-left:20px;
+}
+.info-lt{
+    float:left;
+    width:365px;
+    margin-left:30px;
+}
+.info-rt{
+    margin-right:20px;
+}
+.info{
+    width:750px;
+    height:auto;
+    margin-left:38px;
+}
+.info-list{
+    margin-top:25px;
+}
+.ul-list-text{
+    display:inline-block;
+    width:100px;
+    text-align: right;
+    height:150px;
+}
+
+.ul-content{
+    display:inline-block;
+    width:300px;
+    height:150px;
+    text-align: left;
+}
+.ul-content li{
+    margin-top:15px;
+    margin-left: 5px;
+}
+.ul-content li:first-child{
+    margin-bottom:20px;
+    position:relative;
+}
+label span:first-child{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color:#787878;
+    font-weight:bold;
+}
+.ul-content li:first-child a{
+    width:200px;
+}
+label span:last-child{
+    font-size: 12px;
+    color:#787878;
+}
+.cost-info,#money-info{
+    width:750px;
+    height:200px;
+    margin:0 auto;
+}
+.cost-body li:first-child{
+    width:750px;
+    height:30px;
+    margin-left:20px;
+}
+.cost-body li{
+    margin-top:20px;
+}
+.cost-body .box-text{
+    margin-left:40px;
+}
+.cost-body .ui-select-item{
+    margin-right:80px;
+}
+.search-btn{
+    margin-left:100px;
+}
+.sbtn{
+    width:200px;
+    height:28px;
+}
+#cc{
+    margin-right:10px;
+}
+.beizhu-info{
+    width:750px;
+    height:500px;
+    background: #f2f6f7;
+    margin-left:20px;
+}
+.beizhu-text{
+    font-size: 18px;
+    font-weight:bold;
+    padding-top:20px;
+}
+.beizhu{
+    width:700px;
+    margin-left:12px;
+    margin-bottom:20px;
+}
+.shensuo,.custom-name{
+    width: 700px;
+}
+.shensuo input{
+    width:130px;
+}
+.shensuo a{
+    margin-left:5px;
+}
+.shensuo span{
+    padding-left:14px;
+}
+.custom-name input,.jingbanren input{
+    width:316px;
+}
+.custom-addrs input{
+    margin-left:6px;
+}
+.jingbanren{
+    margin-top:30px;
+    margin-left:50px;
+}
+.jingbanren input{
+    margin-left:20px;
+}
+.anniu{
+    width:750px;
+    height:auto;
+    text-align: center;
+    background: #f2f6f7;
+    margin-left:20px;
+}
+.anniu a{
+    margin-right:20px;
+}
+span.box-text{
+    margin-right:0px;
+}
+td{
+    border-right:none !important;
+}
+tr td:last-child{
+    border-right:1px solid #ddd !important;
+}
+

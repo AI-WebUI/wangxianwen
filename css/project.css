@@ -1,0 +1,115 @@
+#topbar{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    background:#f6f6f6;
+    border-top:2px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.topbar_main{
+    width:790px;
+    margin:0 auto;
+}
+.topbar_main>ul{
+    height:30px;
+    position:relative;
+}
+
+.topbar_main>ul>li{
+    display:inline-block;
+}
+.topbar_main>ul>li a{
+    line-height: 30px;
+    margin:0 auto;
+}
+
+.topbar_main ul li:first-child{
+    width:210px;
+    height:30px;
+    overflow: hidden;
+    position:relative;
+}
+#welcome_text{
+    color:#138FD5;
+    display:inline-block;
+    width:210px;
+    height:30px;
+    line-height: 30px;
+    position:absolute;
+    top:0px;
+    left:210px;
+}
+#replace_block{
+    width:210px;
+    height:30px;
+    margin:0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+li.login{
+    position: absolute;
+    top:0px;
+    left:550px;
+}
+li.register{
+    position: absolute;
+    top:0px;
+    left:650px;
+}
+li.login a,li.register a{
+
+    display:inline-block;
+    width:80px;
+    height:28px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+li.login a:hover,li.register a:hover{
+    font-size: larger;
+    color:#e4393c;
+    font-weight: bold;
+}
+#tt{
+    margin: 5px auto 0;
+
+}
+#table{
+    width:790px;
+    height:250px;
+    margin:0 auto;
+}
+.pp-ps{
+    width:90px;
+    height:30px;
+    margin:0 auto;
+}
+#btn_group{
+    width:500px;
+    height:20px;
+    margin:0 auto;
+    text-align:center;
+}
+#my-div{
+    width: 970px;
+    height: 50px;
+    margin:0 auto;
+    /*display: none;*/
+    border:1px solid #ddd;
+    background-color: #f2f2f2;
+}
+.ui-keytip{
+    width: 770px;
+    margin-left: -385px;
+    display: none;
+   border:1px solid #ddd;
+    background-color: #2e8cd4;
+}
+.aiui-steps{
+    width:790px;
+    height:40px;
+    margin:0 auto;
+}

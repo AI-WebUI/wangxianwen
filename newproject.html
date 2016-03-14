@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/webui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/project.css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/webui.js"></script>
+</head>
+<body>
+    <header id="topbar">
+        <div class="topbar_main">
+            <ul>
+                <li><span id="welcome_text">高效工作热情服务再创佳绩!</span><p id="replace_block"></p></li>
+                <li class="login"><a class="webui-linkbutton btn-blue " href="#">登陆</a></li>
+                <li class="register"><a class="webui-linkbutton btn-blue " href="#">注册</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="tt" class="webui-tabs" ></div>
+        <div id="tb" style="height:auto">
+            <a href="javascript:void(0)" class="webui-linkbutton l-btn l-btn-small l-btn-plain" data-options="iconCls:'icon-add',plain:true" onclick="addrow()">添加</a>
+            <a href="javascript:void(0)" class="webui-linkbutton l-btn l-btn-small l-btn-plain" data-options="iconCls:'icon-save',plain:true" onclick="saveall()">保存</a>
+            <a href="javascript:void(0)" class="webui-linkbutton l-btn l-btn-small l-btn-plain" data-options="iconCls:'icon-undo',plain:true" onclick="cancelall">撤销</a>
+        </div>
+    <!--<div id="table"><table id="dg"></table></div>-->
+    <p class="pp-ps">业务提示</p>
+    <hr>
+    <div id="btn_group">
+        <a class="webui-linkbutton btn-grey" onclick="tip.open()">打开顶部提示 </a>
+        <a class="webui-linkbutton btn-grey" onclick="tip_other.open()">在下框中打开</a>
+        <a class="webui-linkbutton btn-blue btn-small" onclick="tip6.open()">警告（轻）</a>
+    </div>
+    <br>
+    <br>
+    <div id="my-div"><div class="ui-keytip" ></div></div>
+    <br>
+    <div id="box"></div>
+
+    <script src="js/new.js"></script>
+    <nav id="navbar"></nav>
+    <aside id="side"></aside>
+    <foorer id="footer"></foorer>
+    <script src="js/newproject.js"></script>
+    <script src="js/table.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/webui.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/democss.css"/>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/webui.js"></script>
+</head>
+<body>
+<div class="demo-test-div">
+    <div id="demo" style="width: 750px;"></div>
+</div>
+<section>
+    <p class="files-text">档案信息</p>
+
+    <div id="files">
+        <div class="files-body">
+            <ul class="files-header">
+                <li class="lt">名称</li>
+                <li class="rt">使用日期</li>
+            </ul>
+            <ul class="files-header1">
+                <li class="lt"><span class="files-name">家庭宽带包1年600元(20M)</span>
+
+                    <div id="radio-nomarl2"></div>
+                </li>
+                <li><span class="date"></span></li>
+            </ul>
+            <ul class="files-header2">
+                <li class="lt">家庭宽带包1年600元(20M)</li>
+                <li class="rt"><span class="date"></span></li>
+            </ul>
+            <ul class="box">
+                <li class="lt">
+                    <ul>
+                        <li class="box-text">机顶盒串号: <span class="box-number">KWerrer134556633224455</span> <a
+                                href="#nogo" class="webui-linkbutton btn-white btn">修改</a></li>
+                        <li class="box-text box-company"><span class="box-text">机顶盒供应商 :</span><input id="company"
+                                                                                                      class="ui-input ui-input-medium"
+                                                                                                      name="dept"></li>
+                        <li class="box-text end-code"><span class="box-text">终端实物编码 :</span> <input id="code"
+                                                                                                    class="ui-input ui-input-medium"
+                                                                                                    name="dept"></li>
+                    </ul>
+                </li>
+                <li class="rt"></li>
+            </ul>
+            <ul class="files-header2">
+                <li class="lt">2015年新装家庭宽带用户赠送300元话费</li>
+                <li class="rt"><span class="date"></span></li>
+            </ul>
+            <ul class="telnumber">
+                <li class="lt box-text"><label class="ui-label"> 预存号码:</label>
+                    <input type="text" id="USER_NAME" class="ui-input ui-input-medium" defaultchars="请输入电话"
+                           data-form-un="1457660439419.5078"></li>
+                <li class="rt"></li>
+            </ul>
+            <ul class="files-header1">
+                <li class="lt">家庭宽带包年月费减免:</li>
+                <li class="rt"><input id="start" editable="false" class="webui-datebox"> - <input id="end" editable="false" class="webui-datebox"></li>
+            </ul>
+        </div>
+    </div>
+    <br/><br/>
+    <hr/>
+    <p class="files-text">联系人信息</p>
+
+    <div class="kuandai-info">
+        <ul>
+            <li class="info-lt box-text"><label class="label">联系人姓名：</label><input id="custom-name"
+                                                                                   class="ui-input ui-input-medium">
+            </li>
+            <li class="info-rt box-text"><label class="label">联系人电话：</label><input id="custom-numb"
+                                                                                   class="ui-input ui-input-medium">
+            </li>
+        </ul>
+    </div>
+    <br/>
+    <hr/>
+    <p class="files-text">宽带信息</p>
+
+    <div class="info">
+        <ul class="ul-list-text">
+            <li class="box-text info-list">宽带账号、密码</li>
+            <li class="box-text info-list">预约安装时间:</li>
+            <li class="box-text info-list">设备信息:</li>
+        </ul>
+        <ul class="ul-content">
+            <li><a href="#nogo" id="auto-get" class="webui-linkbutton btn-grey" onclick="get()"/> 自动获取</a> <span class="mima"></span> </li>
+            <li><input type="text" class="webui-datebox"/></li>
+            <li><input type="checkbox" name="mao"/> <label for="mao"> <span>用户自备猫</span> <span>(用户自备猫可减免设备押金)</span>
+            </label></li>
+        </ul>
+    </div>
+    <hr/>
+    <p class="files-text">付费信息</p>
+    <div class="cost-info">
+        <ul class="cost-body">
+            <li>
+                <div id="radio-nomarl3"></div>
+            </li>
+            <li class="box-text">手机号码: <input type="text" name="telnub" class="ui-input ui-input-medium"
+                                              defaultchars="(必填)"/></li>
+            <li class="box-text">证件信息: <input id="cc" name="dept" class="ui-input ui-input-medium">
+                <input type="text" name="telnub" class="ui-input ui-input-medium" defaultchars="(必填)"/></li>
+            <li class="search-btn"><a href="#nogo" class="webui-linkbutton btn-grey sbtn">查询</a></li>
+        </ul>
+    </div>
+    <hr/>
+    <p class="files-text">费用信息</p>
+
+    <div id="money-info">
+        <table class="cost-table"></table>
+    </div>
+    <div class="beizhu-info">
+        <p class="beizhu-text">备注信息:</p>
+        <input type="text" class="ui-input beizhu"/>
+        <hr/>
+        <div id="accordion_demo" style="width:720px;height:auto;margin-left:20px;margin-top:20px;">
+            <div title="推荐人">
+                <div style="padding: 20px;background:#f2f6f7;">
+                    <p class="shensuo"> <span class="box-text">证件信息:</span>
+                        <input class="ui-input ui-input-medium" />
+                        <input class="ui-input ui-input-medium" />
+                        <a href="#nogo" class="webui-linkbutton btn-white"/>身份识别</a>
+                        <a href="#nogo" class="webui-linkbutton btn-white"/>手工录入申请</a>
+                    </p>
+                <p class="custom-name">
+                    <span class="box-text"> 经办人姓名:</span> <input class="ui-input ui-input-medium" />
+                </p>
+                    <p class="custom-addrs">
+                        <span class="box-text"> 经办人地址:</span><input class="ui-input ui-input-medium" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr/>
+        <div class="money-info">
+            <p class="beizhu-text">推荐人信息</p>
+            <p class="jingbanren">
+                <span class="box-text"> 经办人:</span><input class="ui-input ui-input-medium" />
+                <a href="#nogo" class="webui-linkbutton btn-white"/>精确查询</a>
+            </p>
+        </div>
+    </div>
+    <div class="anniu">
+            <a href="#nogo" class="webui-linkbutton btn-blue"/>上一步</a>
+            <a href="#nogo" class="webui-linkbutton btn-blue"/>下一步</a>
+    </div>
+</section>
+<script src="js/project.js"></script>
+</body>
+</html>
